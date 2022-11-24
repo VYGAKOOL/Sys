@@ -1,0 +1,114 @@
+
+Start-Date: 2022-39-02  17:25:07
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: ntfs-3g:amd64 (1:2017.3.23AR.3-3ubuntu1, 1:2017.3.23AR.3-3ubuntu1.1), libntfs-3g883:amd64 (1:2017.3.23AR.3-3ubuntu1, 1:2017.3.23AR.3-3ubuntu1.1)
+End-Date: 2022-11-02  17:35:33
+
+Start-Date: 2022-11-03  02:27:14
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Upgrade: code:amd64 (1.59.1-1629375198, 1.60.0-1630494279), thermald:amd64 (1.9.1-1ubuntu0.4, 1.9.1-1ubuntu0.5)
+End-Date: 2022-11-03  02:30:51
+
+Start-Date: 2022-11-06  10:00:48
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Upgrade: xpra-html5:amd64 (4.3-r963-1, 4.4-r1022-1)
+End-Date: 2022-11-06  10:01:05
+
+Start-Date: 2022-11-08  08:26:47
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Install: linux-image-5.4.0-84-generic:amd64 (5.4.0-84.94, automatic), linux-modules-5.11.0-34-generic:amd64 (5.11.0-34.36~20.04.1, automatic), linux-headers-5.11.0-34-generic:amd64 (5.11.0-34.36~20.04.1, automatic), linux-modules-extra-5.11.0-34-generic:amd64 (5.11.0-34.36~20.04.1, automatic), linux-modules-extra-5.4.0-84-generic:amd64 (5.4.0-84.94, automatic), linux-headers-5.4.0-84-generic:amd64 (5.4.0-84.94, automatic), linux-modules-5.4.0-84-generic:amd64 (5.4.0-84.94, automatic), linux-image-5.11.0-34-generic:amd64 (5.11.0-34.36~20.04.1, automatic), linux-headers-5.4.0-84:amd64 (5.4.0-84.94, automatic), linux-hwe-5.11-headers-5.11.0-34:amd64 (5.11.0-34.36~20.04.1, automatic)
+Upgrade: linux-headers-generic-hwe-20.04:amd64 (5.11.0.27.29~20.04.11, 5.11.0.34.36~20.04.13), linux-headers-generic:amd64 (5.4.0.81.85, 5.4.0.84.88), linux-libc-dev:amd64 (5.4.0-81.91, 5.4.0-84.94), alsa-ucm-conf:amd64 (1.2.2-1ubuntu0.9, 1.2.2-1ubuntu0.10), linux-image-generic:amd64 (5.4.0.81.85, 5.4.0.84.88), python-apt-common:amd64 (2.0.0ubuntu0.20.04.5, 2.0.0ubuntu0.20.04.6), linux-image-generic-hwe-20.04:amd64 (5.11.0.27.29~20.04.11, 5.11.0.34.36~20.04.13), linux-generic-hwe-20.04:amd64 (5.11.0.27.29~20.04.11, 5.11.0.34.36~20.04.13), thermald:amd64 (1.9.1-1ubuntu0.5, 1.9.1-1ubuntu0.6), python3-apt:amd64 (2.0.0ubuntu0.20.04.5, 2.0.0ubuntu0.20.04.6)
+End-Date: 2022-11-08  08:29:22
+
+Start-Date: 2022-11-08  08:31:31
+Commandline: apt autoremove
+Requested-By: yarboy (1001)
+Remove: linux-headers-5.4.0-81-generic:amd64 (5.4.0-81.91), linux-image-5.11.0-25-generic:amd64 (5.11.0-25.27~20.04.1), linux-modules-extra-5.4.0-81-generic:amd64 (5.4.0-81.91), linux-modules-5.4.0-81-generic:amd64 (5.4.0-81.91), linux-modules-extra-5.11.0-25-generic:amd64 (5.11.0-25.27~20.04.1), linux-headers-5.4.0-81:amd64 (5.4.0-81.91), linux-modules-5.11.0-25-generic:amd64 (5.11.0-25.27~20.04.1), linux-headers-5.11.0-25-generic:amd64 (5.11.0-25.27~20.04.1), linux-image-5.4.0-81-generic:amd64 (5.4.0-81.91), linux-hwe-5.11-headers-5.11.0-25:amd64 (5.11.0-25.27~20.04.1)
+End-Date: 2022-11-08  08:34:49
+
+Start-Date: 2022-11-10  10:57:46
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Upgrade: firefox-geckodriver:amd64 (91.0.2+build1-0ubuntu0.20.04.1, 92.0+build3-0ubuntu0.20.04.1), libgd3:amd64 (2.2.5-5.2ubuntu2, 2.2.5-5.2ubuntu2.1), libgd3:i386 (2.2.5-5.2ubuntu2, 2.2.5-5.2ubuntu2.1), firefox-locale-en:amd64 (91.0.2+build1-0ubuntu0.20.04.1, 92.0+build3-0ubuntu0.20.04.1), firefox-locale-uk:amd64 (91.0.2+build1-0ubuntu0.20.04.1, 92.0+build3-0ubuntu0.20.04.1), cpio:amd64 (2.13+dfsg-2, 2.13+dfsg-2ubuntu0.3), firefox:amd64 (91.0.2+build1-0ubuntu0.20.04.1, 92.0+build3-0ubuntu0.20.04.1)
+End-Date: 2022-11-10  10:58:29
+
+Start-Date: 2022-11-10  11:00:48
+Commandline: apt install wireguard
+Requested-By: yarboy (1001)
+Install: wireguard-tools:amd64 (1.0.20200513-1~20.04.2, automatic), wireguard:amd64 (1.0.20200513-1~20.04.2)
+End-Date: 2022-11-10  11:00:54
+
+Start-Date: 2022-11-11  14:52:47
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgs9:amd64 (9.50~dfsg-5ubuntu4.2, 9.50~dfsg-5ubuntu4.3), ghostscript:amd64 (9.50~dfsg-5ubuntu4.2, 9.50~dfsg-5ubuntu4.3), ghostscript-x:amd64 (9.50~dfsg-5ubuntu4.2, 9.50~dfsg-5ubuntu4.3), libgs9-common:amd64 (9.50~dfsg-5ubuntu4.2, 9.50~dfsg-5ubuntu4.3)
+End-Date: 2022-11-11  14:52:59
+
+Start-Date: 2022-11-12  22:11:22
+Commandline: apt install libvkd3d1 libvkd3d1:i386
+Requested-By: yarboy (1001)
+Install: libvkd3d-shader1:amd64 (1.2~focal-1, automatic), libvkd3d-shader1:i386 (1.2~focal-1, automatic), vkd3d-compiler:i386 (1.2~focal-1, automatic)
+Upgrade: libvkd3d1:amd64 (1.1-4, 1.2~focal-1), libvkd3d1:i386 (1.1-4, 1.2~focal-1)
+End-Date: 2022-11-12  22:11:32
+
+Start-Date: 2022-11-12  22:11:45
+Commandline: apt install resolvconf
+Requested-By: yarboy (1001)
+Install: resolvconf:amd64 (1.82)
+End-Date: 2022-11-12  22:11:54
+
+Start-Date: 2022-11-14  10:39:51
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: wireless-regdb:amd64 (2022.07.14-0ubuntu1~20.04.1, 2022.08.28-0ubuntu1~20.04.1)
+End-Date: 2022-11-12  10:40:10
+
+Start-Date: 2022-11-14  10:40:14
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git-man:amd64 (1:2.25.1-1ubuntu3.1, 1:2.25.1-1ubuntu3.2)
+End-Date: 2022-11-12  10:40:25
+
+Start-Date: 2022-11-14  10:40:28
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: git:amd64 (1:2.25.1-1ubuntu3.1, 1:2.25.1-1ubuntu3.2)
+End-Date: 2022-11-12  10:40:32
+
+Start-Date: 2022-11-14  11:35:37
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Upgrade: google-chrome-stable:amd64 (93.0.4577.63-1, 93.0.4577.82-1)
+End-Date: 2022-11-12  11:36:00
+
+Start-Date: 2022-11-14  22:22:50
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Upgrade: apport:amd64 (2.20.11-0ubuntu27.18, 2.20.11-0ubuntu27.20), python3-apport:amd64 (2.20.11-0ubuntu27.18, 2.20.11-0ubuntu27.20), code:amd64 (1.60.0-1630494279, 1.60.1-1631294805), apport-gtk:amd64 (2.20.11-0ubuntu27.18, 2.20.11-0ubuntu27.20), opera-stable:amd64 (78.0.4093.184, 79.0.4143.22), python3-problem-report:amd64 (2.20.11-0ubuntu27.18, 2.20.11-0ubuntu27.20)
+End-Date: 2022-11-12  22:26:06
+
+Start-Date: 2022-11-15  14:28:04
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Upgrade: libsystemd0:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), libsystemd0:i386 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), squashfs-tools:amd64 (1:4.4-1ubuntu0.1, 1:4.4-1ubuntu0.2), udev:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), libudev1:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), libudev1:i386 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), systemd-timesyncd:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), libllvm12:amd64 (1:12.0.0-3ubuntu1~20.04.3, 1:12.0.0-3ubuntu1~20.04.4), libllvm12:i386 (1:12.0.0-3ubuntu1~20.04.3, 1:12.0.0-3ubuntu1~20.04.4), udisks2:amd64 (2.8.4-1ubuntu1, 2.8.4-1ubuntu2), systemd-sysv:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), libpam-systemd:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), systemd:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), libnss-systemd:amd64 (245.4-4ubuntu3.11, 245.4-4ubuntu3.13), libudisks2-0:amd64 (2.8.4-1ubuntu1, 2.8.4-1ubuntu2)
+End-Date: 2022-11-12  14:29:34
+
+Start-Date: 2022-11-20  08:46:32
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl3-gnutls:amd64 (7.68.0-1ubuntu2.6, 7.68.0-1ubuntu2.7), libcurl3-gnutls:i386 (7.68.0-1ubuntu2.6, 7.68.0-1ubuntu2.7)
+End-Date: 2022-11-12  08:46:39
+
+Start-Date: 2022-11-20  08:46:43
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libcurl4:amd64 (7.68.0-1ubuntu2.6, 7.68.0-1ubuntu2.7), libcurl4-openssl-dev:amd64 (7.68.0-1ubuntu2.6, 7.68.0-1ubuntu2.7), curl:amd64 (7.68.0-1ubuntu2.6, 7.68.0-1ubuntu2.7)
+End-Date: 2022-11-12  08:46:54
+
+Start-Date: 2022-11-20  08:46:57
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libgcrypt20-dev:amd64 (1.8.5-5ubuntu1, 1.8.5-5ubuntu1.1), libgcrypt20:amd64 (1.8.5-5ubuntu1, 1.8.5-5ubuntu1.1), libgcrypt20:i386 (1.8.5-5ubuntu1, 1.8.5-5ubuntu1.1)
+End-Date: 2022-11-12  08:47:06
+
+Start-Date: 2022-11-20  08:58:45
+Commandline: apt upgrade
+Requested-By: yarboy (1001)
+Upgrade: xpra-html5:amd64 (4.4-r1022-1, 4.5-r1036-1)
+End-Date: 2022-11-12  08:58:47
